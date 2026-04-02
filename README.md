@@ -4,7 +4,7 @@ Supplementary material for:
 
 > **Statistically Modelling Qualia Syntax Through Fourier Space: A Three-role Probabilistic Framework Where Ambiguity Becomes Structure**
 >
-> Samuel Pereira, Gilberto Bernardes, and Jose Oliveira Martins
+> Samuel Pereira, Gilberto Bernardes, and José Oliveira Martins
 
 This repository contains the source code, data, and analytical outputs accompanying the article. The study investigates whether composers' deployment of harmonic qualities -- including diatonicity, octatonicity, and whole-tone quality -- exhibits systematic patterns that could constitute a *qualia syntax*. Building upon the discrete Fourier transform (DFT) of pitch-class sets and its geometric interpretation through the Fourier Qualia Space (FQS), it advances three key contributions: the definition of an ambiguity region in the FQS, a computational methodology for extracting qualia progressions from musical works, and a four-tiered nested analysis examining these progressions across multiple analytical scales.
 
@@ -88,15 +88,15 @@ python tests/qualiaSyntax_parameter_sensitivity.py
 
 | File | Description |
 |------|-------------|
-| `d_complete_dataframe.csv` | Full processed dataframe for Debussy's catalogue, including qualia progressions per piece |
-| `d_conditional_matrix.csv` | Conditional (row-normalised) first-order Markov transition probability matrix |
-| `d_global_matrix.csv` | Global transition percentage matrix across Debussy's qualia progressions |
-| `d_reflets_segments.csv` | Segment-by-segment qualia analysis of *Reflets dans l'eau* (Images, L. 110) |
-| `d_regression_data.csv` | Log-rank vs log-frequency regression data for Zipf analysis |
+| `complete_dataframe.csv` | Full processed dataframe for Debussy's catalogue, including qualia progressions per piece |
+| `conditional_matrix.csv` | Conditional (row-normalised) first-order Markov transition probability matrix |
+| `global_matrix.csv` | Global transition percentage matrix across Debussy's qualia progressions |
+| `reflets_segments.csv` | Segment-by-segment qualia analysis of *Reflets dans l'eau* (Images, L. 110) |
+| `regression_data.csv` | Log-rank vs log-frequency regression data for Zipf analysis |
 
 ### Dendrograms (`data/dendrograms/`)
 
-Hierarchical clustering dendrograms (Ward's method, Euclidean distance) for 27 composers spanning the Baroque to early 20th-century periods. Each dendrogram visualises the transitional similarity relationships between the seven harmonic qualities.
+Hierarchical clustering dendrograms (Ward's method, Euclidean distance) for 28 composers spanning the Baroque to early 20th-century periods. Each dendrogram visualises the transitional similarity relationships between the seven harmonic qualities.
 
 ### Transition counts (`data/transition_counts/`)
 
