@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the article and this repository."
+title: "Supplementary material for Statistically Modelling Qualia Syntax Through Fourier Space"
+version: 1.0.0
+date-released: 2026-04-04
+license: MIT
+repository-code: "https://github.com/sam-filipe/qualia-syntax"
+url: "https://github.com/sml-pereira/qualia-syntax"
+doi: 10.5281/zenodo.19429590
+type: software
+authors:
+  - family-names: Pereira
+    given-names: Samuel
+    email: sml.p@outlook.pt
+    affiliation: "University of Porto, Faculty of Engineering & INESC TEC"
+  - family-names: Bernardes
+    given-names: Gilberto
+    affiliation: "University of Porto, Faculty of Engineering & INESC TEC"
+  - family-names: Oliveira Martins
+    given-names: José
+    affiliation: "University of Coimbra, Faculty of Arts and Humanities & CEIS20"
+keywords:
+  - music information retrieval
+  - computational musicology
+  - Fourier transform
+  - pitch-class sets
+  - qualia
+  - tonality
+  - Debussy
+  - Markov models
+preferred-citation:
+  type: article
+  title: "Statistically Modelling Qualia Syntax Through Fourier Space: A Three-role Probabilistic Framework Where Ambiguity Becomes Structure"
+  year: 2025
+  authors:
+    - family-names: Pereira
+      given-names: Samuel
+      affiliation: "University of Porto, Faculty of Engineering & INESC TEC"
+    - family-names: Bernardes
+      given-names: Gilberto
+      affiliation: "University of Porto, Faculty of Engineering & INESC TEC"
+    - family-names: Oliveira Martins
+      given-names: José
+      affiliation: "University of Coimbra, Faculty of Arts and Humanities & CEIS20"
