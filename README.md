@@ -44,6 +44,7 @@ qualia-syntax/
 │   └── diachronic_zipfian_analysis.csv  # Zipf slopes across composers and periods
 │
 ├── README.md
+├── CITATION.cff
 ├── LICENCE                     # MIT licence (source code)
 ├── LICENCE-DATA                # CC BY 4.0 licence (data files)
 ├── requirements.txt
@@ -60,7 +61,7 @@ qualia-syntax/
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/qualia-syntax.git
+git clone https://github.com/sml-pereira/qualia-syntax.git
 cd qualia-syntax
 pip install -r requirements.txt
 ```
